@@ -1,6 +1,6 @@
 function anosUtilizacao(ano)
 {
-    return Date.prototype.getFullYear() - ano
+    return new Date().getFullYear() - ano
 }
 
 function valorMercado(felipe)
@@ -13,8 +13,8 @@ function valorMercado(felipe)
 
 function calcular()
 {
-    const ano = document.querySelector("#ano").value
-    const felipe = document.querySelector("#felipe").value
+    const ano = Number(document.querySelector("#ano").value)
+    const felipe = Number(document.querySelector("#felipe").value)
     const resultado = document.querySelector("#mostrar")
 
     const anosUtilizado = anosUtilizacao(ano)
@@ -23,7 +23,7 @@ function calcular()
     resultado.innerHTML = ""
 
     const p = document.createElement("p")
-    p.innerHTML = `O veículo tem ${anosUtilizado} anos de uso e seu valor de mercado é R$ ${valorMercado}`
+    p.innerHTML = `O veículo tem ${anosUtilizado} anos de uso e seu valor de mercado é R$ ${valor}`
     p.classList.add("elemento")
     resultado.appendChild(p)
 }
