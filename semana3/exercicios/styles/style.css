@@ -1,0 +1,26 @@
+input {
+    padding: 10px;
+    width: 200px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background: #00ff00;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #2f9400;
+}
+
+.elemento {
+    background-color: #00ff00;
+    margin-top: 15px;
+    padding: 7px;
+}
