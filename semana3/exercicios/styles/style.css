@@ -1,3 +1,9 @@
+.elemento {
+    background-color: #00ff00;
+    margin-top: 15px;
+    padding: 7px;
+}
+
 input {
     padding: 10px;
     width: 200px;
@@ -17,10 +23,4 @@ button {
 
 button:hover {
     background: #2f9400;
-}
-
-.elemento {
-    background-color: #00ff00;
-    margin-top: 15px;
-    padding: 7px;
 }

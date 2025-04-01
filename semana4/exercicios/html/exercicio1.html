@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <section id="conteudo">
+        <h1>Formulário de Cadastro</h1>
+        
+        <form method="get">
+            <section class="bloco-input">
+                <label for="Nome">Nome: </label>
+                <input type="text" placeholder="Digite seu Nome Completo">
+            </section>
+
+            <section>
+                <label for="Email">E-Mail:</label>
+                <input type="text" placeholder="fulano@teste.com">
+            </section>
+
+            <section>
+                <label for="data_Nasc">Data Nascimento:</label>
+                <input type="date">
+                <label for="Telefone_Fix">Telefone Fixo:</label>
+                <input type="number" placeholder="(99)99999-9999">
+            </section>
+
+            <section>
+                <label for="Telefone_Cel">Celular:</label>
+                <input type="number" placeholder="(99)99999-9999">
+                <label for="professor">Professor:</label>
+                <input type="radio" name="opção" value="professor">
+                <label for="aluno">Aluno:</label>
+                <input type="radio" name="opção" value="aluno">
+            </section>
+
+            <section id="campos-dinamicos"></section>
+
+            <section>
+                <button>Enviar</button>
+                <button>Redefinir</button>
+            </section>
+            
+            
+        </form>
+
+    </section>
+
+    <script src="../js/exercicio1.js"></script>
+</body>
+</html>
