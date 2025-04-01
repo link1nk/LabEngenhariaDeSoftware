@@ -1,0 +1,53 @@
+.contador {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.total {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.grupos {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.grupo {
+    text-align: center;
+}
+
+.icone {
+    font-size: 30px;
+}
+
+.numero {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.botao {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.reset {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 15px;
+}
+
+.voltar {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+}
